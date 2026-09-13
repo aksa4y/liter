@@ -1,0 +1,9 @@
+<script setup lang="ts">
+import { articles } from '~/data/articles'
+const route = useRoute()
+const article = articles.find(item => item.slug === route.params.slug)
+if (!article) throw createError({ statusCode: 404, statusMessage: 'Статья не найдена' })
+usePageSeo(article.title, article.excerpt)
+const related = articles.filter(item => item.slug !== article.slug).slice(0, 3)
+</script>
+<template><div v-if="article" class="page-content content-pad"><NuxtLink class="back-link" to="/journal">← Журнал</NuxtLink><header class="article-heading"><span class="eyebrow">{{ article.category }} / {{ article.minutes }} мин чтения</span><h1>{{ article.title }}</h1><p>{{ article.excerpt }}</p><span class="article-byline">Редакция Литеры · 13 сентября 2026</span></header><div class="article-cover" :style="{ background: article.color, color: article.ink }" aria-hidden="true"><span>{{ article.cover }}</span></div><div class="reading-layout"><aside class="article-toc"><span class="eyebrow">В этом материале</span><a v-for="(section, i) in article.sections" :key="section.title" :href="`#part-${i}`">{{ section.title }}</a></aside><div class="article-body"><template v-for="(section, i) in article.sections" :key="section.title"><section :id="`part-${i}`"><h2>{{ section.title }}</h2><p v-for="paragraph in section.paragraphs" :key="paragraph">{{ paragraph }}</p><aside v-if="section.tip" class="editorial-tip"><span>Попробуй</span>{{ section.tip }}</aside></section><AdSlot v-if="i === 1" placement="article" /></template><div class="reading-cta"><h3>От теории — к буквам.</h3><NuxtLink to="/fonts" class="button button-dark">Открыть каталог <AppIcon name="arrow" /></NuxtLink></div></div></div><section class="section"><div class="section-heading"><h2>Ещё немного о буквах</h2></div><div class="article-grid"><ArticleCard v-for="item in related" :key="item.slug" :article="item" /></div></section></div></template>

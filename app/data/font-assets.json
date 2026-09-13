@@ -1,0 +1,176 @@
+{
+  "manrope": {
+    "name": "Manrope",
+    "designer": "Mikhail Sharanda",
+    "weights": [
+      200,
+      800
+    ],
+    "files": [
+      "manrope.woff2"
+    ],
+    "bytes": 70323,
+    "source": "https://github.com/google/fonts/tree/main/ofl/manrope",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  },
+  "cormorantgaramond": {
+    "name": "Cormorant Garamond",
+    "designer": "Christian Thalmann",
+    "weights": [
+      300,
+      700
+    ],
+    "files": [
+      "cormorantgaramond.woff2",
+      "cormorantgaramond-italic.woff2"
+    ],
+    "bytes": 541040,
+    "source": "https://github.com/google/fonts/tree/main/ofl/cormorantgaramond",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  },
+  "unbounded": {
+    "name": "Unbounded",
+    "designer": "NaN",
+    "weights": [
+      200,
+      900
+    ],
+    "files": [
+      "unbounded.woff2"
+    ],
+    "bytes": 388731,
+    "source": "https://github.com/google/fonts/tree/main/ofl/unbounded",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  },
+  "golostext": {
+    "name": "Golos Text",
+    "designer": "Alexandra Korolkova, Vitaly Kuzmin",
+    "weights": [
+      400,
+      900
+    ],
+    "files": [
+      "golostext.woff2"
+    ],
+    "bytes": 96706,
+    "source": "https://github.com/google/fonts/tree/main/ofl/golostext",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  },
+  "prata": {
+    "name": "Prata",
+    "designer": "Cyreal",
+    "weights": [
+      400,
+      400
+    ],
+    "files": [
+      "prata.woff2"
+    ],
+    "bytes": 51821,
+    "source": "https://github.com/google/fonts/tree/main/ofl/prata",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  },
+  "onest": {
+    "name": "Onest",
+    "designer": "Dmitri Voloshin, Andrey Kudryavtsev",
+    "weights": [
+      100,
+      900
+    ],
+    "files": [
+      "onest.woff2"
+    ],
+    "bytes": 110651,
+    "source": "https://github.com/google/fonts/tree/main/ofl/onest",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  },
+  "playfairdisplay": {
+    "name": "Playfair Display",
+    "designer": "Claus Eggers Sørensen",
+    "weights": [
+      400,
+      900
+    ],
+    "files": [
+      "playfairdisplay.woff2",
+      "playfairdisplay-italic.woff2"
+    ],
+    "bytes": 270635,
+    "source": "https://github.com/google/fonts/tree/main/ofl/playfairdisplay",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»"
+  },
+  "lora": {
+    "name": "Lora",
+    "designer": "Cyreal",
+    "weights": [
+      400,
+      700
+    ],
+    "files": [
+      "lora.woff2",
+      "lora-italic.woff2"
+    ],
+    "bytes": 224836,
+    "source": "https://github.com/google/fonts/tree/main/ofl/lora",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  },
+  "rubik": {
+    "name": "Rubik",
+    "designer": "Hubert and Fischer, Meir Sadan, Cyreal, Daniel Grumer, Omaima Dajani",
+    "weights": [
+      300,
+      900
+    ],
+    "files": [
+      "rubik.woff2",
+      "rubik-italic.woff2"
+    ],
+    "bytes": 299842,
+    "source": "https://github.com/google/fonts/tree/main/ofl/rubik",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  },
+  "montserrat": {
+    "name": "Montserrat",
+    "designer": "Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly",
+    "weights": [
+      100,
+      900
+    ],
+    "files": [
+      "montserrat.woff2",
+      "montserrat-italic.woff2"
+    ],
+    "bytes": 619679,
+    "source": "https://github.com/google/fonts/tree/main/ofl/montserrat",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  },
+  "jetbrainsmono": {
+    "name": "JetBrains Mono",
+    "designer": "JetBrains, Philipp Nurullin, Konstantin Bulenkov",
+    "weights": [
+      100,
+      800
+    ],
+    "files": [
+      "jetbrainsmono.woff2",
+      "jetbrainsmono-italic.woff2"
+    ],
+    "bytes": 190755,
+    "source": "https://github.com/google/fonts/tree/main/ofl/jetbrainsmono",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  },
+  "caveat": {
+    "name": "Caveat",
+    "designer": "Impallari Type",
+    "weights": [
+      400,
+      700
+    ],
+    "files": [
+      "caveat.woff2"
+    ],
+    "bytes": 220140,
+    "source": "https://github.com/google/fonts/tree/main/ofl/caveat",
+    "glyphs": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789&!?—«»₽"
+  }
+}
