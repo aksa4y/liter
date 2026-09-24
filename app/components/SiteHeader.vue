@@ -7,7 +7,7 @@ const links = [{ to: '/fonts', label: 'Шрифты' }, { to: '/collections', la
 </script>
 <template>
   <header class="site-header">
-    <NuxtLink class="wordmark" to="/" aria-label="Литера — главная">литера<span class="wordmark-dot">✳</span></NuxtLink>
+    <NuxtLink class="wordmark" to="/" aria-label="Pixelhav — главная">pixelhav<span class="wordmark-dot">✳</span></NuxtLink>
     <nav class="desktop-nav" aria-label="Основная навигация"><NuxtLink v-for="link in links" :key="link.to" :to="link.to">{{ link.label }}</NuxtLink></nav>
     <div class="header-actions">
       <NuxtLink class="icon-button favorites-link" to="/favorites" :aria-label="`Избранное: ${favorites.length}`"><AppIcon name="bookmark" /><span v-if="favorites.length" class="count-badge">{{ favorites.length }}</span></NuxtLink>

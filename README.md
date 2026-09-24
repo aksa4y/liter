@@ -1,11 +1,11 @@
-# Литера — независимый проект на Nuxt
+# Pixelhav — независимый проект на Nuxt
 
 Сайт о шрифтах и типографике. Nuxt 4.5.2, Vue 3, TypeScript и обычный CSS.
 Самостоятельный проект: не требует Sites, аккаунта OpenAI, сторонних ключей или облачной базы.
 
 ## Быстрый запуск
 
-Установите Node.js 22.12+ (подойдёт актуальная LTS). Распакуйте архив и откройте папку `litera-nuxt` в VS Code или WebStorm.
+Установите Node.js 22.12+ (подойдёт актуальная LTS). Распакуйте архив и откройте папку `pixelhav-nuxt` в VS Code или WebStorm.
 
 ```bash
 npm ci
@@ -41,8 +41,8 @@ Copy-Item .env.example .env
 Либо создайте копию через редактор. Заполните:
 
 ```dotenv
-NUXT_PUBLIC_SITE_URL=https://your-domain.ru
-NUXT_PUBLIC_YANDEX_RTB_BANNER_ID=
+NUXT_PUBLIC_SITE_URL=https://pixelhav.ru
+NUXT_PUBLIC_YANDEX_RTB_BANNER_ID=R-A-20107695-1
 NUXT_PUBLIC_YANDEX_RTB_ARTICLE_ID=
 NUXT_PUBLIC_ADS_PREVIEW=false
 ```
@@ -116,8 +116,8 @@ npm run generate
 ```bash
 git init
 git add .
-git commit -m "Create Litera Nuxt project"
-gh repo create litera-nuxt --private --source=. --remote=origin --push
+git commit -m "Rebrand site as Pixelhav"
+gh repo create pixelhav-nuxt --private --source=. --remote=origin --push
 ```
 
 Для публичного репозитория осознанно замените `--private` на `--public`.

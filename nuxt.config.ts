@@ -5,8 +5,12 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'ru' },
-      titleTemplate: '%s — Литера',
+      titleTemplate: '%s — Pixelhav',
       meta: [{ name: 'theme-color', content: '#d9edf7' }],
+      script: [
+        { innerHTML: 'window.yaContextCb = window.yaContextCb || [];' },
+        { src: 'https://yandex.ru/ads/system/context.js', async: true, id: 'yandex-context-script' }
+      ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'preload', href: '/fonts/onest.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }
@@ -15,8 +19,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      siteUrl: '',
-      yandexRtbBannerId: '',
+      siteUrl: 'https://pixelhav.ru',
+      yandexRtbBannerId: 'R-A-20107695-1',
       yandexRtbArticleId: '',
       adsPreview: false
     }

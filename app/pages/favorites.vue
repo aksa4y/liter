@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { fonts } from '~/data/fonts'
-usePageSeo('Избранное', 'Твои сохранённые шрифты в Литере.', true)
+usePageSeo('Избранное', 'Твои сохранённые шрифты на Pixelhav.', true)
 const { favorites, storageMessage } = useFavorites()
 const selected = computed(() => fonts.filter(font => favorites.value.includes(font.slug)))
 </script>

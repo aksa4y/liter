@@ -2,7 +2,7 @@
 import { fonts } from '~/data/fonts'
 import { collections } from '~/data/collections'
 import { articles } from '~/data/articles'
-usePageSeo('Шрифты с характером', 'Литера — шрифты с кириллицей, живой предпросмотр, шрифтовые пары и журнал о типографике. Скачивайте шрифты с открытыми лицензиями.')
+usePageSeo('Шрифты с характером', 'Pixelhav — шрифты с кириллицей, живой предпросмотр, шрифтовые пары и журнал о типографике. Скачивайте шрифты с открытыми лицензиями.')
 </script>
 <template>
   <section class="hero">
