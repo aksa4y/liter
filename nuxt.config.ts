@@ -13,8 +13,8 @@ export default defineNuxtConfig({
   m[i].l=1*new Date();
   for (var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return}}
   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-})(window,document,"script","https://mc.yandex.ru/metrika/tag.js?id=11301040","ym");
-ym(11301040,"init",{ssr:true,webvisor:true,clickmap:true,ecommerce:"dataLayer",accurateTrackBounce:true,trackLinks:true});` },
+})(window,document,"script","https://mc.yandex.ru/metrika/tag.js?id=113010040","ym");
+ym(113010040,"init",{ssr:true,webvisor:true,clickmap:true,ecommerce:"dataLayer",accurateTrackBounce:true,trackLinks:true});` },
         { innerHTML: 'window.yaContextCb = window.yaContextCb || [];' },
         { src: 'https://yandex.ru/ads/system/context.js', async: true, id: 'yandex-context-script' }
       ],
