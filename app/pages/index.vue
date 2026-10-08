@@ -2,17 +2,12 @@
 import { fonts } from '~/data/fonts'
 import { collections } from '~/data/collections'
 import { articles } from '~/data/articles'
-<script setup lang="ts">
-import { fonts } from '~/data/fonts'
-import { collections } from '~/data/collections'
-import { articles } from '~/data/articles'
 usePageSeo(
   'Шрифты с кириллицей — каталог шрифтов',
   'Каталог шрифтов с кириллицей и латиницей: живой предпросмотр, подборки, шрифтовые пары и скачивание гарнитур с лицензией OFL.',
   false,
   ['шрифты с кириллицей', 'каталог шрифтов', 'скачать шрифт с кириллицей', 'шрифты для сайта', 'шрифтовые пары', 'типографика']
 )
-</script>
 </script>
 <template>
   <section class="hero">
