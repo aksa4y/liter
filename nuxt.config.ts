@@ -19,6 +19,7 @@ ym(113010040,"init",{ssr:true,webvisor:true,clickmap:true,ecommerce:"dataLayer",
         { src: 'https://yandex.ru/ads/system/context.js', async: true, id: 'yandex-context-script' }
       ],
       link: [
+        { rel: 'describedby', href: '/llms.txt' },
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'preload', href: '/fonts/onest.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }
       ]
