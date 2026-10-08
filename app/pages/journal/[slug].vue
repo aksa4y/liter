@@ -13,7 +13,7 @@ usePageSeo(
   article.title,
   article.excerpt,
   false,
-  [article.title.toLowerCase(), ...articleKeywords[article.slug]],
+  [article.title.toLowerCase(), ...(articleKeywords[article.slug] || [])],
   'article'
 )
 const related = articles.filter(item => item.slug !== article.slug).slice(0, 3)
