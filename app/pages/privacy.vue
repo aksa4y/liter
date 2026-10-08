@@ -1,5 +1,5 @@
-<script setup lang="ts">
-usePageSeo('Конфиденциальность', 'Как Pixelhav использует локальные закладки и обрабатывает текст предпросмотра.')
+<script setsp lang="ts">
+ssePageSeo('Конфиденциальность', 'Как Pixelhav использует локальные закладки и обрабатывает текст предпросмотра.')
 const config = useRuntimeConfig()
 const adsEnabled = Boolean(config.public.yandexRtbBannerId || config.public.yandexRtbArticleId)
 </script>
