@@ -3,7 +3,19 @@ import { fonts } from '~/data/fonts'
 const route = useRoute()
 const font = fonts.find(item => item.slug === route.params.slug)
 if (!font) throw createError({ statusCode: 404, statusMessage: 'Шрифт не найден' })
-usePageSeo(`${font.name} — скачать шрифт`, `${font.name}: ${font.description} Кириллица, предпросмотр и скачивание с лицензией OFL.`)
+const categoryKeywords: Record<string, string> = {
+  'Гротески': 'гротескный шрифт',
+  'Антиквы': 'шрифт антиква',
+  'Акцидентные': 'акцидентный шрифт',
+  'Моноширинные': 'моноширинный шрифт',
+  'Рукописные': 'рукописный шрифт'
+}
+usePageSeo(
+  `${font.name} — скачать шрифт с кириллицей`,
+  `${font.name}: ${font.description} Кириллица и латиница, живой предпросмотр и скачивание с лицензией OFL.`,
+  false,
+  [font.name, `${font.name} шрифт`, `скачать ${font.name}`, 'скачать шрифт с кириллицей', categoryKeywords[font.category], 'шрифты для сайта', 'лицензия OFL']
+)
 const { favorites, toggle, storageMessage } = useFavorites()
 const sample = ref('Всё начинается с буквы.')
 const size = ref(72)
