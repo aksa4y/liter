@@ -6,7 +6,10 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: { lang: 'ru' },
       titleTemplate: '%s — Pixelhav',
-      meta: [{ name: 'theme-color', content: '#d9edf7' }],
+      meta: [
+        { name: 'theme-color', content: '#d9edf7' },
+        { name: 'yandex-verification', content: 'd1bde93104c69658' }
+      ],
       script: [
         { innerHTML: `(function(m,e,t,r,i,k,a){
   m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
