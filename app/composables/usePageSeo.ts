@@ -36,7 +36,6 @@ export function usePageSeo(
   useSeoMeta({
     title,
     description,
-    keywords: keywords.length ? keywords.join(', ') : undefined,
     ogTitle: `${title} — Pixelhav`,
     ogDescription: description,
     ogType,
@@ -47,6 +46,8 @@ export function usePageSeo(
     twitterCard: 'summary_large_image',
     ...(noindex ? { robots: 'noindex,follow' } : {})
   })
+
+  if (keywords.length) useHead({ meta: [{ name: 'keywords', content: keywords.join(', ') }] })
 
   if (origin) useHead({
     link: [{ rel: 'canonical', href: canonical }],
