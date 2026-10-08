@@ -1,0 +1,48 @@
+# Pixelhav
+
+> Pixelhav — русскоязычный каталог шрифтов и журнал о типографике. Сайт помогает находить и сравнивать гарнитуры с кириллицей и латиницей, проверять их на собственном тексте и изучать основы типографики.
+
+Pixelhav — каталог и редакционный проект, а не автор представленных шрифтов. Авторы и исходные проекты указаны на страницах гарнитур. Перед использованием или распространением файлов проверьте лицензию конкретного шрифта и сохраните файл лицензии из архива.
+
+## Основные разделы
+
+- [Главная](https://pixelhav.ru/): обзор каталога, подборок, шрифтовых пар и журнала.
+- [Каталог шрифтов](https://pixelhav.ru/fonts): 12 гарнитур с кириллицей, предпросмотром, сведениями об авторах и скачиванием.
+- [Шрифтовые пары](https://pixelhav.ru/pairs): сравнение рекомендованных сочетаний гарнитур.
+- [Подборки шрифтов](https://pixelhav.ru/collections): тематические коллекции для разных задач.
+- [Журнал о типографике](https://pixelhav.ru/journal): практические материалы о выборе и использовании шрифтов.
+- [О проекте и лицензиях](https://pixelhav.ru/about): сведения о каталоге и лицензиях.
+- [Конфиденциальность](https://pixelhav.ru/privacy): информация о локальных закладках и тексте предпросмотра.
+
+## Страницы шрифтов
+
+- [Manrope](https://pixelhav.ru/fonts/manrope)
+- [Cormorant Garamond](https://pixelhav.ru/fonts/cormorantgaramond)
+- [Unbounded](https://pixelhav.ru/fonts/unbounded)
+- [Golos Text](https://pixelhav.ru/fonts/golostext)
+- [Prata](https://pixelhav.ru/fonts/prata)
+- [Onest](https://pixelhav.ru/fonts/onest)
+- [Playfair Display](https://pixelhav.ru/fonts/playfairdisplay)
+- [Lora](https://pixelhav.ru/fonts/lora)
+- [Rubik](https://pixelhav.ru/fonts/rubik)
+- [Montserrat](https://pixelhav.ru/fonts/montserrat)
+- [JetBrains Mono](https://pixelhav.ru/fonts/jetbrainsmono)
+- [Caveat](https://pixelhav.ru/fonts/caveat)
+
+## Подборки
+
+- [Тихая роскошь](https://pixelhav.ru/collections/quiet-luxury)
+- [Для цифрового мира](https://pixelhav.ru/collections/digital)
+- [Громче слов](https://pixelhav.ru/collections/loud)
+
+## Материалы журнала
+
+- [Как выбрать шрифт и не потеряться](https://pixelhav.ru/journal/choose-a-typeface)
+- [Воздух между буквами: маленькая большая разница](https://pixelhav.ru/journal/kerning-tracking-leading)
+- [Два шрифта. Один характер.](https://pixelhav.ru/journal/font-pairing)
+- [Кириллица, на которую хочется смотреть](https://pixelhav.ru/journal/cyrillic-details)
+
+## Технические файлы
+
+- [Карта сайта](https://pixelhav.ru/sitemap.xml)
+- [Правила для поисковых роботов](https://pixelhav.ru/robots.txt)
