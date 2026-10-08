@@ -7,4 +7,4 @@ usePageSeo(
   ['подборки шрифтов', 'шрифты для сайта', 'шрифты для интерфейса', 'шрифты для заголовков', 'шрифты с кириллицей', 'шрифты для дизайна']
 )
 </script>
-<template><div class="page-content content-pad"><div class="page-heading"><span class="eyebrow">Подобрано с чувством</span><h1>Подборки</h1><p>Меньше поисков. Больше точных попаданий.</p></div><div class="collection-grid"><CollectionCard v-for="collection in collections" :key="collection.slug" :collection="collection" /></div><AdSlot /></div></template>
+<template><div class="page-content content-pad"><div class="page-heading"><span class="eyebrow">Подобрано с чувством</span><h1>Подборки шрифтов</h1><p>Меньше поисков. Больше точных попаданий.</p></div><div class="collection-grid"><CollectionCard v-for="collection in collections" :key="collection.slug" :collection="collection" /></div><AdSlot /></div></template>
