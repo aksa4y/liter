@@ -13,7 +13,7 @@ usePageSeo(
   `${collection.title} — подборка шрифтов с кириллицей`,
   `${collection.description} В подборке — живой предпросмотр, сведения об авторах и лицензии OFL.`,
   false,
-  ['подборка шрифтов', collection.title.toLowerCase(), 'шрифты с кириллицей', ...collectionKeywords[collection.slug]]
+  ['подборка шрифтов', collection.title.toLowerCase(), 'шрифты с кириллицей', ...(collectionKeywords[collection.slug] || [])]
 )
 const selected = collection.fontSlugs.map(slug => fonts.find(font => font.slug === slug)!)
 </script>
